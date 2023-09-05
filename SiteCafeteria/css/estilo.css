@@ -347,7 +347,37 @@ font-size: 15pt;
     background-image: url("/svg/heart-fill.svg " );
     background-size:30px ;
    }
+    .compartilhar{
+        position: relative;
+        left: 150px;
+        top:-34px;
+
+    }
+   .alerta,.alerta2{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top:400px;
+    left:800px;
+    background-color: #4b2115de;
+    color: #fdfdfd;
+   }
+   .alerta p,.alerta2 p{
+    position: relative;
+    top:10px;
+
+
+   }
+   .bi{
+    color: aliceblue;
+   }
+.redes-socias{
+    position: relative;
+    text-align: center;
+    top:40%;
     
+}
+
     .primeria-imagem {
         position: relative;
         background-image: url("/imagems/trabalho-com-cafe.jpg");
@@ -514,3 +544,9 @@ font-size: 15pt;
     color:#fff;
 }
 
+.alerta, .alerta2{
+    position: relative;
+    left:-20em;
+    top:15em;
+    visibility:hidden;
+}
