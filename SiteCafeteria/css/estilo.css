@@ -213,7 +213,7 @@ span {
 }
 
 .gif {
-    background-image: url("./SiteCafeteria/imagems/mesaCafe.jpg");
+    background-image: url("/SiteCafeteria/imagems/mesaCafe.jpg");
     position: relative;
     left: -1%;
     top: 127em;
