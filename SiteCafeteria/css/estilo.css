@@ -83,7 +83,7 @@ svg {
 
 /*Inicio do site*/
 .fundo {
-    background-image: url("/imagems/pao.jpg");
+    background-image: url("./SiteCafeteria/imagems/pao.jpg");
     min-height: 900px;
     min-width: 1900px;
     background-attachment: fixed;
@@ -166,7 +166,7 @@ span {
 }
 
 .imagem-produto {
-    background-image: url("/imagems/rosquinha-removebg-preview.png");
+    background-image: url("./SiteCafeteria/imagems/rosquinha-removebg-preview.png");
     width: 400px;
     height: 600px;
     position: relative;
@@ -213,7 +213,7 @@ span {
 }
 
 .gif {
-    background-image: url("/imagems/mesaCafe.jpg");
+    background-image: url("./SiteCafeteria/imagems/mesaCafe.jpg");
     position: relative;
     left: -1%;
     top: 127em;
@@ -227,7 +227,7 @@ span {
 }
 
 .chefe {
-    background-image: url("/imagems/chefe.jpg");
+    background-image: url("./SiteCafeteria/imagems/chefe.jpg");
     height: 500px;
     width: 450px;
     position: relative;
@@ -276,7 +276,7 @@ font-size: 15pt;
 
     .grao-cafe{
         position: relative;
-        background-image: url("/imagems/grao.jpg");
+        background-image: url("./SiteCafeteria/imagems/grao.jpg");
         width: 1897px;
         height: 500px;
         left: -20px;
@@ -344,7 +344,7 @@ font-size: 15pt;
         text-align: center;
     }
    .lb-heart input:checked + img {
-    background-image: url("/svg/heart-fill.svg " );
+    background-image: url("./SiteCafeteria/svg/heart-fill.svg " );
     background-size:30px ;
    }
     .compartilhar{
@@ -380,7 +380,7 @@ font-size: 15pt;
 
     .primeria-imagem {
         position: relative;
-        background-image: url("/imagems/trabalho-com-cafe.jpg");
+        background-image: url("./SiteCafeteria/imagems/trabalho-com-cafe.jpg");
         width: 300px;
         height: 700px;
         background-position: center;
@@ -391,7 +391,7 @@ font-size: 15pt;
 
     .segunda-imagem{
         position: relative;
-        background-image: url("/imagems/zoom-cafe.jpg");
+        background-image: url("./SiteCafeteria/imagems/zoom-cafe.jpg");
         width: 300px;
         height: 700px;
         background-position: center;
