@@ -1,0 +1,106 @@
+.secao__nosso__cafe {
+    display: flex;
+    margin: 7em 15em;
+    text-align: justify;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.secao__nosso__cafe h2 {
+    font-size: 2em;
+    text-align: center;
+    color: var(--cor-senaria);
+}
+
+.secao__nosso__cafe h3,
+.secao__nosso__cafe p {
+    border-bottom: var(--cor-terciaria) 3px solid;
+    padding: 1em 0;
+    color: var(--cor-senaria);
+}
+
+.secao__nosso__cafe h3 {
+    font-size: 1.22em;
+}
+
+.secao__nosso__cafe p {
+    font-size: 1.09em;
+
+}
+
+.secao__nosso__cafe-imagens {
+    display: flex;
+    flex-direction: column-reverse;
+
+
+}
+
+.secao__nosso__cafe-imagens img {
+    width: 400px;
+    margin: 1em;
+    z-index: -1;
+
+}
+
+
+.secao__nosso__cafe-imagens figcaption {
+    margin: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 598px;
+    width: 398px;
+    color: #ffffff00;
+   
+    
+}
+
+.secao__nosso__cafe-imagens figcaption:hover {
+    background-color: #00000044;
+    color: #ffffff;
+   
+}
+
+.secao__nosso__redes-socias i {
+    font-size: 1.8em;
+    margin: 1em;
+    cursor: pointer;
+  
+}
+
+.secao__nosso__compartilha-favorita{
+margin-top: 5em;
+margin-left: 5em;
+
+}
+
+@media (min-width:320px ) and (max-width:1024px) {
+
+    .secao__nosso__cafe {
+        display: none;
+       
+    }
+    
+
+
+
+
+
+
+}
+
+
+@media(max-width:1440px){
+
+    .secao__nosso__cafe {
+        
+        margin: 7em 5em;
+        
+    }
+
+
+
+
+}

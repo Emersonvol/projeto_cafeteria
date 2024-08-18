@@ -1,0 +1,24 @@
+@import '../css/reset.css';
+@import '../css/estiloMenu/index.css';
+@import '../css/primeiraParte/index.css';
+@import '../css/secaoCaixaSonho/index.css';
+@import '../css/gif/index.css';
+@import '../css/secaoSobre/index.css';
+@import '../css/fraseChefe/index.css';
+@import '../css/nossoCafe/index.css';
+@import "../css/rodape/index.css";
+@import "../css/galeria/index.css";
+:root{
+    --cor-primaria:#a57c7c;
+    --cor-secundaria:#ef8c5f;
+    --cor-terciaria:#f10000;
+    --cor-quaternaria:#fff;
+    --cor-quinaria:#7b5f5f;
+    --cor-senaria:#7b5f5fc4;
+}
+
+*{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+

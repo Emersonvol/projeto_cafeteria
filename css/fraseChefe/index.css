@@ -1,0 +1,21 @@
+.secao__chefe{
+ width: 100%;   
+ height: 25em;
+background-image: url("/imagems/grao.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var( --cor-quaternaria);
+}
+
+.secao__chefe-texto{
+text-align: center;
+background-color: #00000045;
+}
+.secao__chefe-texto p{
+    margin: 1em 0;
+    font-size: 1.2em;
+    }

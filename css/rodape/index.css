@@ -1,0 +1,136 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: var(--cor-primaria);
+}
+
+.rodape h2 {
+    font-size: 2.9em;
+    text-align: center;
+    border-bottom:var( --cor-terciaria) 2px solid;
+    margin: 0em 0em 1em 0em;
+    text-transform: uppercase;
+}
+.rodape h2,.rodape__endereco p{
+    color:var(--cor-quaternaria);
+}
+.rodape__endereco p {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0em 0em 1em 0em;
+    width: 550px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+
+}
+
+
+.rodape__formulario {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    justify-content: center;
+
+
+}
+
+.rodape__formulario-txtArea {
+    grid-area: 1/4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    resize: none;
+}
+
+.rodape__formulario-nome,
+.rodape__formulario-email,
+.rodape__formulario-Assunto,
+.rodape__formulario-txtArea {
+    font-size: 1.2em;
+    margin: .2em;
+    border: var(--cor-quinaria) solid;
+    resize: none;
+    outline: none;
+}
+
+
+
+.rodape__formulario-nome,
+.rodape__formulario-email,
+.rodape__formulario-Assunto {
+
+    font-size: 1.5em;
+    margin: .2em;
+}
+
+.rodape__formulario-nome {
+    order: 0;
+}
+
+.rodape__formulario-email {
+    order: 2;
+}
+
+.rodape__formulario-Assunto {
+    order: 3;
+}
+
+.rodape__formulario-txtArea {
+    order: 1;
+}
+
+.rodape__submit {
+    margin: 1em 3em;
+    padding: 1em;
+    cursor: pointer;
+    border: none;
+    color: var(--cor-quaternaria);
+    background-color: var(--cor-secundaria);
+    border-radius: 1em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+    order: 4;
+}
+
+.rodape__submit:hover {
+
+    color: var(--cor-quaternaria);
+    box-shadow: 0px 0px 10px 5px var(--cor-terciaria);
+
+
+
+}
+
+.rodape__outras a{
+    text-transform: uppercase;
+    font-size: 1em;
+    color: var(--cor-quaternaria);
+    margin: 1em;
+}
+
+.rodape__outras a:hover{
+        text-decoration:solid;
+
+}
+
+@media (min-width:320px ) and (max-width:425px) {
+  
+    .rodape__formulario {
+        display: block;
+    
+    
+    }
+
+    .rodape__endereco p {
+    
+      
+       width: 12em;
+       word-wrap: break-word;
+    }
+
+}

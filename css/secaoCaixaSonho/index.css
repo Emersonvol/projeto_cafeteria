@@ -1,0 +1,141 @@
+.secao__produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7em 15em;
+    color: var(--cor-senaria);
+    border: solid;
+}
+
+.secao__texto {
+    text-align: center;
+
+}
+
+.secao__texto h2 {
+    font-size: 2em;
+}
+
+.secao__texto h3 {
+    font-size: 1.22em;
+    border-bottom: var(--cor-terciaria) .2em solid;
+    margin: 0 13em;
+    padding: .4em 0em;
+    text-transform: uppercase;
+}
+
+
+.secao__texto p {
+    text-align: justify;
+    margin: 2em 10em;
+    font-size: 1.3em;
+
+}
+
+.secao__btn-compra {
+    background: none;
+    padding: .2em 3em;
+    font-size: 1.2em;
+    border-radius: .5em;
+    border: 2px solid var(--cor-secundaria);
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    transition: ease-in-out .5s;
+}
+
+.secao__btn-compra:hover {
+    color: var(--cor-quaternaria);
+    background-color: var(--cor-secundaria);
+    font-size: 1.205em;
+}
+
+.secao__img-produto {
+    display: flex;
+    margin: 2em 5em;
+    z-index: -1;
+}
+
+.secao__preco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--cor-quinaria);
+    border-radius: 100%;
+    width: 8em;
+    height: 8em;
+    font-size: 1.6em;
+    margin: 2em -5em;
+
+}
+
+.secao__preco p {
+    color: var(--cor-quaternaria);
+    border: 3px solid;
+    padding: 2.5em 0em;
+    margin: 0.3em;
+    display: flex;
+    text-align: center;
+    border-radius: 100%;
+
+}
+
+@media (min-width:320px) and (max-width:768px) {
+
+    .secao__produto {        
+        margin: 5em .5em;  
+        box-sizing: border-box;  
+    }
+
+    .secao__texto {
+      max-width: 100%;
+        
+    }
+
+    .secao__texto h2 {
+        margin:0 1em;
+        font-size: 1.3em;
+        
+    }
+
+    .secao__texto h3 {
+        font-size: 1.2em;
+        margin:1em 1em;
+        padding: .4em 0em;
+        text-transform: uppercase;
+        
+    }
+
+
+    .secao__texto p {
+        display: none;
+    }
+
+
+
+    .secao__img-produto {
+        display: none;
+      
+    }
+
+
+
+}
+
+
+@media (min-width:1024px) {
+
+    .secao__produto {
+       
+        margin: 7em 1em;
+        
+    }
+
+  
+    .secao__texto p {
+       
+        margin: 2em 7em;
+       
+    
+    }
+
+}

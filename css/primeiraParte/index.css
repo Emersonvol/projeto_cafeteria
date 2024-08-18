@@ -1,0 +1,58 @@
+.secao__inicial {
+    background-image: url("/imagems/pao.jpg");
+    height: 100vh;
+    max-width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;  
+}
+.nome-loja {
+    color: var(--cor-quaternaria);    
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.nome-loja h1 {
+    font-size: 9em;
+    margin-bottom:.4em;
+}
+span {
+    font-size: 2em;
+}
+.btn-pedido {
+    border: solid;
+    padding: 15px;
+    cursor: pointer;
+    transition:all ease-in-out 200ms;
+    text-transform: uppercase;
+}
+.btn-pedido:hover{
+    color: var(--cor-quaternaria);    
+    background-color: var(--cor-secundaria);
+
+}
+
+@media (min-width:320px ) and (max-width:768px) {
+    .secao__inicial {
+      
+        height: 100vh;
+        width: 100vw;
+        
+    }
+    .nome-loja {
+        color: var(--cor-quaternaria);    
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    .nome-loja h1 {
+        font-size: 4em;
+        margin-bottom:1em;
+    }
+    span {
+        font-size: 2em;
+    }
+    
+ 
+}

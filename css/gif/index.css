@@ -1,0 +1,26 @@
+
+.gif video{
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+
+ }
+
+
+ @media (min-width:320px ) and (max-width:768px) {
+
+  .gif video{
+    display: none;
+
+ }
+
+
+
+
+
+
+ }
