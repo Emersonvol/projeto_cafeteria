@@ -11,7 +11,8 @@ coracoes.forEach(coracao => {
 });
 
 const galeria = document.querySelector(".galeria")
-fetch("/fotos.json")
+fetch("/projeto_cafeteria
+/fotos.json")
 .then(fotos =>{ return fotos.json()})
 .then((imagens)=>{
     imagens.map(imgs =>{
