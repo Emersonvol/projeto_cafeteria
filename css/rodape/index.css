@@ -81,6 +81,7 @@
 
 .rodape__formulario-txtArea {
     order: 1;
+    width: 292px;
 }
 
 .rodape__submit {
@@ -127,10 +128,19 @@
     }
 
     .rodape__endereco p {
-    
-      
+        
        width: 12em;
        word-wrap: break-word;
     }
 
+
+    .rodape__outras {
+       display: flex;
+       flex-direction: column;
+    }
+    .rodape__formulario-txtArea {
+      
+        width: 292px;
+    }
+    
 }
